@@ -1,0 +1,49 @@
+/*Designing the Price Container*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+table, tr, th{
+    margin: auto;
+    padding: 0.5rem 1.5rem;
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+table td{
+    margin: auto;
+    padding: 0.5rem 1.5rem;
+    border: 2px dashed black;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+input{
+    padding: 5px;
+}
+
+.submit{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+th{
+    background-color: black;
+    color: whitesmoke;
+}
+
+.display{
+    background-color: green;
+    margin-bottom: 1.5rem;
+    padding: 12px;
+    font-size: 15px;
+    font-weight: 600;
+    color: whitesmoke;
+}
